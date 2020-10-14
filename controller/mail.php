@@ -40,9 +40,8 @@
     //Set this to true if SMTP host requires authentication to send email
     $mail->SMTPAuth = true;                          
     //Provide username and password     
-    $mail->Username = "dev@parijat.asia";                 
+    $mail->Username = "yourEmail@email.com";                 
     $mail->Password = "password";          
-    // $mail->Password = "7MS1fmvle7-g6ciN";                           
     //If SMTP requires TLS encryption then set it
     $mail->SMTPSecure = "ssl";                           
     //Set TCP port to connect to
